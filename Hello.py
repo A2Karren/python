@@ -26,3 +26,19 @@ print(firstCity)
 
 alternativeCity = finalRanking [1][0]
 print(alternativeCity)
+
+#Comparison Operators
+print(8 == 8) # True
+print(8 != 8) # False
+print(8 == 10) # False
+print(8 != 10) # True
+
+
+#List Operations
+animals = ["cat", "dog", "rabbit", "horse", "giant_horrible_monster"]
+cat_found = "cat" in animals
+space_monster_found = "space_monster" in animals
+print(space_monster_found)
+
+if "cat" in animals:
+    print("Cat found") 
